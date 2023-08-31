@@ -50,7 +50,7 @@ export async function loader(){
 
 function Index() {
 
-  const {guitarras, posts, curso} = useLoaderData()
+  const {guitarras, curso} = useLoaderData()
   
 
   return (
